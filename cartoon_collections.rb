@@ -21,7 +21,8 @@ def long_planeteer_calls(planeteer_calls)
     if el.length > 4
       return true 
     else 
-      return false 
+      return false
+    end
   end
 end
 
