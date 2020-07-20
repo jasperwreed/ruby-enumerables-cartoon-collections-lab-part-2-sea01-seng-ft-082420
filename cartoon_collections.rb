@@ -32,7 +32,9 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   planeteer_calls.any? do |el|
     if el.include? valid_calls == true
-      return el 
+      return el
+    else 
+      return nil
     end
   end
 end
